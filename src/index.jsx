@@ -8,7 +8,7 @@ const sender = component({
   domain: domain,
   password: "deepak@123!",
 });
-sender.start;
+sender.start();
 
 sender.iqCallee.get(
   "http://jabber.org/protocol/disco#items",
